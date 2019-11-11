@@ -11,6 +11,30 @@ const marked = require('gulp-markdown');
 const wrap = require('gulp-wrap');
 const frontMatter = require('gulp-front-matter');
 
+
+function markdown() {
+  return src('app/pages/**/*.md')
+    .pipe(frontMatter())
+    .pipe(md())
+    .pipe(
+      wrap(
+        data =>
+          fs
+            .readFileSync(
+              'app/templates/' + data.file.frontMatter.template + '.html'
+            )
+            .toString(),
+        null,
+        { engine: 'nunjucks' }
+      )
+    )
+    .pipe(dest('prod'));
+}
+
+function ui() {
+  return src('app/ui/*').pipe(dest('prod/ui'));
+}
+
 function css() {
   return src('source/scss/**/*.scss')
     .pipe(sass({ outputStyle: 'compressed' })) // nested, compact, expanded, compressed
