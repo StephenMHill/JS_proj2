@@ -1,10 +1,10 @@
 ---
 title: Home
 banner: banner.jpg
-template: page
+template: index
 ---
 
 # Biathlon
 
-**Cross Country Skiing with Guns**
+**Cross Country Skiing with Rifles**
 
