@@ -65,9 +65,11 @@ article {
     padding: 1vh;
     padding-top: 50px;
     text-shadow: 1px 1px white, -1px -1px white, -1px 1px white, 1px -1px white;
-    line-height: 3vh;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
 }
 article img {
     width: 25%;
-    clear: both;
 }
+
