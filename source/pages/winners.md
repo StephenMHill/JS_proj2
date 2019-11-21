@@ -7,7 +7,7 @@ template: page
 # Biathlon Winners
 
 
-2010 Winter Olympics Womens - Tora Berger - Norway ![Tora Berger](images/.jpg)
+2010 Winter Olympics Womens - Tora Berger - Norway ![Tora Berger](images/Tora_Berger_2006.jpg)
 
 2010 Winter Olympics Mens - Emil Hegle Svendsen - Norway ![Emil Hegle Svendsen](images/Emil_Hegle_Svendsen.JPG)
 
