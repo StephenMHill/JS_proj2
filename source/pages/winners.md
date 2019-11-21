@@ -18,3 +18,5 @@ template: page
 2018 Winter Olympics Womens - Hanna Öberg - Sweden ![Hanna Öberg](images/Hanna_Öberg_2017.jpg)
 
 2018 Winter Olympics Womens - Johannes Thingnes Bø - Norway ![Johannes Thingnes Bø](images/Johannes_Thingnes_Bø_01_(cropped).jpg)
+
+[images/Tora_Berger_2006.jpg](images/Tora_Berger_2006.jpg)
