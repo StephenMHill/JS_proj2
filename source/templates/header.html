@@ -1,0 +1,11 @@
+<header>
+    <img src="images/{{file.frontMatter.banner}}" alt="{{file.frontMatter.title}}" />
+    <nav>
+      <ul>
+        <li><a href="index.html" {%if file.frontMatter.title=='Home' %} class="current" {% endif %}>Home</a></li>
+        <li><a href="about.html" {%if file.frontMatter.title=='About' %} class="current" {% endif %}>About</a></li>
+        <li><a href="winners.html" {%if file.frontMatter.title=='Winners' %} class="current" {% endif %}>Winners</a></li>
+        <li><a href="next.html" {%if file.frontMatter.title=='Next Competition' %} class="current" {% endif %}>Next Competition</a></li>
+      </ul>
+    </nav>
+  </header>
